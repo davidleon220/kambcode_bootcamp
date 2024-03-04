@@ -1,0 +1,10 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.box-principal {
+    background-image: linear-gradient(110deg, #f93d66, #6d47d9);
+    margin: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}

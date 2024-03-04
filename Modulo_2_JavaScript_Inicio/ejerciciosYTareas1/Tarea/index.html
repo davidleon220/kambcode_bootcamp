@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body style="background-color: beige">
+    <center>
+      <script>
+        ///Cálculo de Celsius a Fahrenheit
+
+        let celsius = parseFloat(
+          prompt("Intuduce la tempreatua actual en grados Celsius")
+        );
+
+        let celsiusConverter = (celsius * 9) / 5 + 32;
+
+        ///alert("La Temperatura actual es de " + temperatureConverter);
+
+        document.write(
+          " La temperatura actual en grados Celsiuses de: " +
+            celsiusConverter +
+            " C. "
+        );
+
+        ///Cálculo de Fahrenheit a Celsius
+
+        let fahrenheit = parseFloat(
+          prompt("Intuduce la tempreatua actual en grados Fahrenheit")
+        );
+
+        let fahrenheitConverter = ((fahrenheit - 32) * 5) / 9;
+
+        document.write(
+          " La temperatura actual en grados Fahrenheit es de: " +
+            fahrenheitConverter +
+            " F. "
+        );
+///ver mañana, si funcona el codigo de abajo, solo tengo que arreglarlo para que se vea mejor
+/// Preguntarle al profesor como hacer para poner una linea de bajo de otra
+        const cold = 35;
+        const perfectWeather = 26;
+        const hot = 35;
+
+        if(celsiusConverter <= cold){
+            document.write(" El clima es muy frio " + celsiusConverter);
+        } else if(celsiusConverter === perfectWeather){
+            document.write(" El clima es perfecto " + celsiusConverter)
+        }else if(celsiusConverter === hot){
+            document.write(" El clima esta muy caliente " + celsiusConverter)
+        }
+        
+      </script>
+    </center>
+  </body>
+</html>

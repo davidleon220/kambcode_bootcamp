@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+
+    background-color: black;
+}
+
+.titule-register{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.formulario{
+    background-color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #9CA6FF;
+    border-radius: 5px;
+    width: 350px;
+    padding:5px;
+    padding-left: 15px;
+}
+
+.button-register{
+    border-style: solid;
+    border-width: 0;
+    color: white;
+    font-size: 15px;
+    background-color: #8B54FF;
+    border-radius: 20px;
+    width: 370px;
+    text-align: center;
+    padding:5px;
+}
+
+::placeholder{
+    color: white;
+}

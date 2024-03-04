@@ -1,0 +1,37 @@
+h1{
+    color: blue;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#description{
+    font-size: 24px;
+    color: green;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border: 5px dotted rgba(221, 43,26,0.982);
+}
+
+.box-flex{
+    width: 300px;
+    height: 200px;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    justify-content: start ;
+    align-items: center ;
+
+
+}
+
+.small-box{
+    width: 50px;
+    height: 50px;
+    background-color: brown;
+    border: 5px solid black;
+}

@@ -1,0 +1,45 @@
+body{
+    background-color: rgba(0, 0, 255, 0.274);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    border: 3px solid red; ;
+    display: flex;
+    width: 500px;
+    /*margin: auto;*/
+}
+
+.imageContanier{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.socialMediaContainer{
+    border-left:3px solid green; 
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.profileImage{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 10px solid grey;
+}
+
+.socialIcons{
+    display: flex;
+    gap: 20px;
+}

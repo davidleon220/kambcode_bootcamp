@@ -1,0 +1,35 @@
+.container{
+display: grid;
+grid-template-columns: 1fr 200px;
+grid-template-rows: 100px 50px 300px 50px;
+grid-template-areas: 
+"ahead ahead"
+"anav aright"
+"amain aright"
+"afoot afoot";
+}
+
+.header{
+    background-color: yellow;
+    grid-area: ahead;
+}
+
+.navigation{
+    background-color: purple;
+    grid-area: anav ;
+}
+
+.main{
+    background-color: plum;
+    grid-area: amain;
+}
+
+.right{
+    background-color: aqua;
+    grid-area: aright;
+}
+
+.footer{
+    background-color: aquamarine;
+    grid-area: afoot;
+}

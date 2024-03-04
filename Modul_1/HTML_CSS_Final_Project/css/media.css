@@ -1,0 +1,178 @@
+@media (max-width: 1080px) {
+    .container {
+        display: grid;
+        grid-template-columns: 0.1fr 0.8fr 0.1fr;
+        grid-template-rows: 80px auto 50px auto 50px auto;
+        grid-template-areas:
+        " .   .  header "
+        " profile  profile profile "
+        " .        skills  . "
+        " blueLeft skills  blueRight "
+        " .        skills  . "
+        " footer   footer  footer ";
+    }
+
+    .menuHambur{
+        display: block;
+    }
+    .icons {
+        display: none;
+    }
+
+    .textMenu {
+        display: none;
+
+    }
+
+    .menu {
+        display: block;
+        display: flex;
+        justify-content: right;
+    }
+
+    .textPhoto {
+        display: flex;
+        flex-direction: row-reverse;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .photo {
+        width: 500px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .description {
+        margin: 20px 0px 20px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text1 {
+        margin: 10px 0px 10px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .text2 {
+        text-align: center;
+        margin: 10px 0px 10px 0px;
+    }
+
+    .btn {
+        margin: 0px 0px 20px 0px;
+        padding: 15px 15px 15px 15px;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .boxIcons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .boxIcons1 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        border-right: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+
+    .boxIcons2 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        border-right: 0px;
+        margin-right: 0px;
+        margin-bottom: 40px;
+    }
+
+    .iconsSkill {
+        margin: auto;
+    }
+
+    .textExperiences {
+        display: flex;
+        flex-direction: column;
+        margin: 0px 30px 0px 30px;
+    }
+
+    .textSkillMicrosoft {
+        margin: 0px 0px 0px 20px;
+    }
+
+    .textSkillFigma {
+        margin: 0px 90px 0px 20px;
+    }
+
+    .textSkillDate {
+        margin: 20px 90px 20px 0px;
+    }
+
+    .texFigma {
+        margin-bottom: 80px;
+    }
+
+    .boxFigma {
+        display: flex;
+    }
+.mediaFigma1{
+    display: none;
+}
+    .mediaFigma2 {
+        margin: 0px 0px 0px 0px;
+        display: flex;
+    }
+
+    .mediaMicro2 {
+        margin: 14px 0px 0px 0px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .mediaMicro {
+        margin: 14px 0px 0px 0px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .mediaFigma3{
+        display: block;
+        width: 40px;
+        height: 40px;
+    }
+
+    .mediaFigma4{
+        display: block;
+        width: 50px;
+        height: 70px;
+    }
+
+    .textSkillDate1{
+        display: none;
+    }
+    
+.textSkillDate2{
+    display: block;
+    margin: 20px 0px 20px 0px;
+}
+}

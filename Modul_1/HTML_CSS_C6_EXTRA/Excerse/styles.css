@@ -1,0 +1,42 @@
+body {
+    background-color: #FF9A8B;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.card {
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+img{
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.title{
+    border: 2px solid #FF9A8B;
+    width: 80px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center ;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+button{
+    background-color: #FF9A8B;
+    border: 0px;
+    border-radius: 5px;
+    padding: 15px 30px 15px 30px;
+    font-weight: 700;
+    font-size: medium;
+    margin-top: -12px;
+}

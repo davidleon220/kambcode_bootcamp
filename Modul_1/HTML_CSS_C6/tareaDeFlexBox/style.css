@@ -1,0 +1,97 @@
+body {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card1{
+    padding-top: 10px;
+    padding-bottom: 2px;
+    height: 480px;
+    overflow-y: scroll;
+    background-color: white;
+}
+
+.card1::-webkit-scrollbar{
+    width: 8px;
+    background-color: #0045d06e;
+    border-radius: 50px;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius:0 0 15px 15px;
+}
+
+.search {
+    background-color: #1e5fe6;
+    padding: 20px 40px 30px 40px;
+    border-radius: 15px 15px 0 0;
+}
+
+.btn {
+    font-size: 15px;
+    width: 280px;
+    background-color: #0044d0;
+    border: 1px solid #0044d0;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+::placeholder{
+    color: rgb(160, 155, 155);
+}
+
+.text1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.text2 {
+    color: azure;
+    display: flex;
+    justify-content: center;
+    opacity: .6;
+
+}
+
+.card_persons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding:12px  100px 0 20px ;
+    border-bottom: 1px solid grey;
+    border-radius: 10px;
+}
+
+.img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+}
+
+.text3{
+
+    border: 1px solid red;
+}
+
+.text4{
+    border: 1px solid red;
+
+
+}
+
+.texto{
+    border: 1px solid red;
+    width: 200px;
+}

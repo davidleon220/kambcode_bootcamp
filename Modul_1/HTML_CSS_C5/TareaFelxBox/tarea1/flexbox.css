@@ -1,0 +1,39 @@
+    .card {
+        padding: 20px;
+        border: 6px solid black;
+        width: 400px;
+    }
+
+    .parkImg {
+        width: 400px;
+        height: 400px;
+        background-image: url("./image/card_image.jpeg");
+        background-size: cover;
+        border-radius: 10px;
+
+        display: flex;
+        justify-content: end;
+    }
+
+    .location {
+        border-radius: 5px;
+        padding: 10px;
+        margin-top: 20px;
+        margin-right: 20px;
+        color: white;
+        height: 30px;
+        font-weight: 900;
+        font-size: 24px;
+        background-color: rgba(131, 183, 131, 0.873);
+    }
+
+    .textDate {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .date {
+        margin: 5px;
+        font-size: 30px;
+    }
+

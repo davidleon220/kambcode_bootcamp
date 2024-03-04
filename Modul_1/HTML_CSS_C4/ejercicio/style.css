@@ -1,0 +1,32 @@
+.container{
+    width: 600px;
+    height: 400px;
+    color: white;
+    border: 1px solid black;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDRbZbkhT3GNPpYYrzDk36V-dhPcmB6MdccFbx9wDhig&s) ;
+}
+.container_text{
+    /*
+    margin-top: 210px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    margin-left: 40px;*/
+    margin: 210px 10px 0px 40px;
+    border: 2px solid red;
+
+}
+
+.blueBox{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin-top: 50px;
+}
+
+.redBox{
+    width: 80px;
+    height: 80px;
+    background-color: red;
+    margin: 50px 20px 10px 5px;
+    
+}

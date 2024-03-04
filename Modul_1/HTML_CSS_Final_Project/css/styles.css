@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Heebo;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 0.1fr 0.8fr 0.1fr;
+    grid-template-rows: 80px auto 50px auto 50px auto;
+    grid-template-areas: " header header header " " profile profile profile " " . skills . " " blueLeft skills blueRight " " . skills . " " footer footer footer ";
+}
+.header {
+    grid-area: header;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.profile {
+    grid-area: profile;
+}
+.skills {
+    grid-area: skills;
+    background-color: #0A5B74;
+    color: azure;
+}
+.blue-content-left {
+    grid-area: blueLeft;
+    background-color: #A3CEDB;
+}
+.blue-content-right {
+    grid-area: blueRight;
+    background-color: #A3CEDB;
+}
+.footer {
+    grid-area: footer;
+}
+
+/* fin grid*/
+
+.icons {
+    display: flex;
+    gap: 50px;
+    margin: 50px 0 0 100px;
+}
+.menu {
+    display: none;
+}
+.textMenu {
+    display: flex;
+    justify-content: end;
+    align-content: end;
+    gap: 50px;
+    font-size: 30px;
+    margin: 50px 100px 0 0;
+    font-weight: 600;
+}
+
+.textPhoto {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 100px 0 150px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px 50px 0 0;
+}
+
+.text1 {
+    width: 380px;
+    margin: 50px 0 0 30px;
+}
+
+.text2 {
+    width: 450px;
+    margin: 50px 0 0 30px;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.photo {
+    display: flex;
+    justify-content: center;
+    border-radius: 190px;
+    padding: 80px 50px 0 0;
+}
+
+.btn {
+    margin: 0 0 70px 180px;
+    color: white;
+    background-color: #ff6464;
+    border: 0;
+    border-radius: 2px;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.textColor {
+    color: red;
+}
+
+.boxIcons {
+    display: flex;
+    justify-content: center;
+    background-color: #0A5B74;
+
+}
+
+.boxIcons1 {
+    border-right: 1px solid #fff;
+    margin-right: 20px;
+    margin-bottom: 80px;
+
+}
+
+.text3 {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 60px;
+    color: #EDF7FA;
+    display: flex;
+    justify-content: center;
+    background-color: #0A5B74;
+    padding: 20px 0;
+}
+
+.iconsSkill {
+    display: flex;
+    margin: 15px 20px 0;
+}
+
+.text4 {
+    border-top: 1px solid #EDF7FA;
+    color: white;
+    font-weight: 400;
+    font-size: 50px;
+    padding: 10px 80px 40px;
+    text-decoration: underline;
+}
+
+.textExperiences {
+    color: white;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px;
+
+}
+.textSkillMicrosoft {
+    color: white;
+    font-size: 50px;
+    margin: 0 25px;
+}
+
+.textSkillFigma {
+    color: white;
+    font-size: 50px;
+    margin: 0 90px 0 25px;
+}
+
+.textSkillDate {
+    margin: 20px 90px 0 25px;
+}
+.iconsFooter {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 200px 0 30px;
+}
+
+.textCopyright {
+    display: flex;
+    justify-content: center;
+    padding: 0 0 30px;
+}
+
+.mediaMicro1 {
+    display: none;
+}
+.mediaMicro {
+    display: flex;
+    flex-direction: column;
+}
+.mediaFigma3 {
+    display: none;
+}
+
+.mediaFigma4 {
+    display: none;
+}
+
+.menuHambur {
+    display: none;
+}
+
+.textSkillDate2{
+    display: none;
+}
+
+.textSkillDate1{
+    margin: 0px 0px 0px 30px;
+}

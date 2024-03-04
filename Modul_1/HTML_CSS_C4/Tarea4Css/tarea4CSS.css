@@ -1,0 +1,54 @@
+* {
+    font-family: sans-serif;
+    background-color: lightgray;
+}
+
+.content {
+    background-color: white;
+    border-radius: 20px;
+    width: 729px;
+    height: 729px;
+    margin: auto;
+}
+
+.paris {
+    background-color: white;
+    border-radius: 20px 20px 0 0;
+}
+
+.girl {
+    width: 300px;
+    border: solid 8px white;
+    border-radius: 50%;
+    margin: -150px 0 0 190px;
+}
+
+.name {
+    background-color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: #23003E;
+    margin: auto;
+}
+
+.text {
+    margin: 30px 40px 30px 40px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    color: #7E7E7E;
+    background-color: white;
+}
+
+.btn {
+    background-color: #6A14AD;
+    padding: 10px 20px 10px 20px;
+    border-radius: 3px;
+    color: white;
+    margin-left: 300px;
+}
+
+.btn:hover {
+    background-color: #460d73;
+}

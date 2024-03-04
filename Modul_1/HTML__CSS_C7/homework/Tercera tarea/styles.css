@@ -1,0 +1,66 @@
+.element {
+    background-color: grey;
+    color: white;
+    font-size: 24px;
+    font-weight: 900;
+    border-radius: 5px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.wrapper {
+    gap: 10px;
+    margin: 50px 0 0 50px;
+    display: grid;
+    grid-template-columns: 250px 250px ;
+    grid-template-rows: 100px 100px auto 100px 100px;
+    grid-template-areas:
+        " header header "
+        " sidebar Nav "
+        " sidebar Article "
+        " sidebar Article "
+        " Footer Footer ";
+}
+
+.box-1 {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    background-color: rgb(232, 232, 75);
+    grid-area: header;
+}
+
+.box-2 {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    background-color: pink;
+    grid-area: sidebar;
+
+}
+
+.box-3 {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    background-color: rgb(114, 225, 225);
+    grid-area: Nav;
+}
+
+.box-4 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(96, 96, 135);
+    grid-area: Article;
+
+}
+
+.box-5 {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    background-color: rgb(164, 164, 164);
+    grid-area: Footer;
+}
